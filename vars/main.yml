@@ -1,0 +1,12 @@
+ec2_config:
+  region: us-east-1
+  zone: us-east-1b
+  keypair: ansible
+  instance_type: t2.micro
+  image: ami-cd0f5cb6 
+#  vpc_subnet_id: subnet-bcc41af5
+  group: all
+  assign_public_ip: true
+  instance_tag_name: ansiblenode
+  remote_user: ubuntu
+  ssh_path: ~/.ssh/id_rsa
